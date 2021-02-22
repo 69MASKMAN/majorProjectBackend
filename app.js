@@ -92,6 +92,6 @@ app.get('/',(req,res) => {
     res.send('deployed successfully')
 })
 
-app.listen(PORT,() => {
-    console.log(`Server is up on port ${PORT}`);
+app.listen(8000,() => {
+    console.log(`Server is up on port 8000`);
 })
