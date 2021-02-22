@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -26,4 +26,5 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-instagram": "^1.0.0"
   }
+
 }
