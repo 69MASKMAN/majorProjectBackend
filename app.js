@@ -9,7 +9,7 @@ const InstagramStrategy = require('passport-instagram');
 const config = require('./config/config')
 const PassportKeys = require('./config/passport_keys')
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT||8000;
 
 const app = express();
 app.use(cors());
@@ -92,6 +92,6 @@ app.get('/',(req,res) => {
     res.send('deployed successfully')
 })
 
-app.listen(8000,() => {
-    console.log(`Server is up on port 8000`);
+app.listen(PORT,() => {
+    console.log(`Server is up on port`);
 })
